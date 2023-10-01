@@ -4,9 +4,9 @@
 // @version      1.0
 // @description  Automatic scrolling on Twitter with text buttons "Up", "Stop", and "Down" for scrolling control.
 // @author       404 Not Found
-// @match       https://twitter.com/*
-// @match       https://mobile.twitter.com/*
-// @match       https://tweetdeck.twitter.com/*
+// @match        https://twitter.com/*
+// @match        https://mobile.twitter.com/*
+// @match        https://tweetdeck.twitter.com/*
 // @grant        none
 // ==/UserScript==
 
