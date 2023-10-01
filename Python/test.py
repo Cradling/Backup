@@ -47,6 +47,7 @@ def transfer_files(source_folders, categories):
     for source_folder in source_folders:
         # 处理每个源文件夹的逻辑...
         # 使用 source_folder 进行文件转移，根据需要使用 categories 字典进行分类
+        transfer_files(source_folder, categories)
 
 # 定义多个源文件夹路径
 source_folders = [
@@ -58,7 +59,6 @@ source_folders = [
 # 定义固定的分类字典
 categories = {
     'a': 'C:/path/to/target/folder/a',
-    'b': 'C:/path/to/target/folder/b',
 }
 
 # 调用 transfer_files 函数处理多个源文件夹
