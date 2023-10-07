@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitter-AutoScroll
 // @namespace    https://github.com/Cradling/Backup
-// @version      1.0
+// @version      1.1
 // @description  Automatic scrolling on Twitter with text buttons "Up", "Stop", and "Down" for scrolling control.
 // @author       404 Not Found
 // @match        https://twitter.com/*
@@ -19,8 +19,8 @@
     var buttonContainer = document.createElement('div');
     buttonContainer.style.position = 'fixed';
     buttonContainer.style.left = '20px';
-    buttonContainer.style.top = '50%';
-    buttonContainer.style.transform = 'translateY(-50%)';
+    buttonContainer.style.top = 'auto';
+    buttonContainer.style.transform = 'translateY(0)';
     buttonContainer.style.zIndex = '9999';
     buttonContainer.style.display = 'flex';
     buttonContainer.style.flexDirection = 'column';
